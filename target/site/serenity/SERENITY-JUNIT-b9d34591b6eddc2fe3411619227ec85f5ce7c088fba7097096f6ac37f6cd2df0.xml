@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Use ui catalog" skipped="0" tests="1" time="4.34" timestamp="2024-08-01 10:37:45"><testcase name="See the alerts"><error message="WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver&#10;WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at '/src/test/resources/app/UIKitCatalog.app' does not exist or is not accessible &#10;Host info: host: 'qxco336.quipux.local', ip: '10.242.6.131'&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'&#10;Driver info: io.appium.java_client.ios.IOSDriver&#10;Command: [null, newSession {capabilities=[{appium:app=/src/test/resources/app/UIKitCatalog.app, appium:automationName=XCUITest, appium:bundleId=com.example.apple.UICatalog, appium:deviceName=iPhone, appium:fullReset=false, appium:hub=http://127.0.0.1:4723, appium:nativeWebScreenshot=true, appium:newCommandTimeout=800, appium:noReset=false, platformName=IOS, appium:platformVersion=17.5.1, appium:udid=00008030-000D24190E84802E}], desiredCapabilities=Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}}]&#10;Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}&#10;See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at '/src/test/resources/app/UIKitCatalog.app' does not exist or is not accessible 
+Host info: host: 'qxco336.quipux.local', ip: '10.242.6.131'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[{appium:app=/src/test/resources/app/UIKitCatalog.app, appium:automationName=XCUITest, appium:bundleId=com.example.apple.UICatalog, appium:deviceName=iPhone, appium:fullReset=false, appium:hub=http://127.0.0.1:4723, appium:nativeWebScreenshot=true, appium:newCommandTimeout=800, appium:noReset=false, platformName=IOS, appium:platformVersion=17.5.1, appium:udid=00008030-000D24190E84802E}], desiredCapabilities=Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}}]
+Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}
+See below for more details.</error><system-err>WebDriver was unable to create a new instance of type class io.appium.java_client.AppiumDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at '/src/test/resources/app/UIKitCatalog.app' does not exist or is not accessible 
+Host info: host: 'qxco336.quipux.local', ip: '10.242.6.131'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.2'
+Driver info: io.appium.java_client.ios.IOSDriver
+Command: [null, newSession {capabilities=[{appium:app=/src/test/resources/app/UIKitCatalog.app, appium:automationName=XCUITest, appium:bundleId=com.example.apple.UICatalog, appium:deviceName=iPhone, appium:fullReset=false, appium:hub=http://127.0.0.1:4723, appium:nativeWebScreenshot=true, appium:newCommandTimeout=800, appium:noReset=false, platformName=IOS, appium:platformVersion=17.5.1, appium:udid=00008030-000D24190E84802E}], desiredCapabilities=Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}}]
+Capabilities {app: /src/test/resources/app/UIK..., automationName: XCUITest, bundleId: com.example.apple.UICatalog, deviceName: iPhone, fullReset: false, hub: http://127.0.0.1:4723, nativeWebScreenshot: true, newCommandTimeout: 800, noReset: false, platformName: IOS, platformVersion: 17.5.1, udid: 00008030-000D24190E84802E}
+See below for more details.
+net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:152)
+net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:178)
+net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:169)
+net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:120)
+net.thucydides.core.webdriver.appium.AppiumConfiguration.getTargetPlatform(AppiumConfiguration.java:55)
+net.thucydides.core.webdriver.ElementLocatorFactorySelector.platformFor(ElementLocatorFactorySelector.java:52)
+net.thucydides.core.webdriver.ElementLocatorFactorySelector.getLocatorFor(ElementLocatorFactorySelector.java:42)
+net.thucydides.core.webdriver.ElementLocatorFactorySelector.getLocatorFor(ElementLocatorFactorySelector.java:31)
+net.thucydides.core.annotations.locators.SmartElementProxyCreator.proxyElements(SmartElementProxyCreator.java:21)
+net.thucydides.core.webdriver.DefaultPageObjectInitialiser.apply(DefaultPageObjectInitialiser.java:20)
+com.uicatalog.stepdefinitions.ActionStepDefinition.enterTheAlertOption(ActionStepDefinition.java:20)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:332)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:53)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>
